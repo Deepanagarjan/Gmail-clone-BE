@@ -1,6 +1,6 @@
 import express from "express"; 
 import { createEmail, deleteEmail, getAllEmailById } from "../Controllers/email.controller.js";
-import isAuthenticated from "../middleware/isAuthenticated.js";
+import isAuthenticated from "../middelware/isAuthenticated.js";
 
 const router = express.Router();
 
